@@ -1,0 +1,27 @@
+/* immigration */
+.bind-height {
+	width: 100%;
+	height: 95vh;
+}
+#immigration form {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+#immigration label {
+	justify-content: flex-end;
+	margin-bottom: 0;
+}
+#immigration input{
+	margin-left: 2em;
+}
+#immigration .button {
+	width: auto;
+	margin-left: 0;
+	margin-top: 3em;
+}
+#immigration .error-field {
+	height: 1.5em;
+}
+#immigration .error {
+	margin-bottom: 0;
+}

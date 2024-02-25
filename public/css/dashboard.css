@@ -1,0 +1,17 @@
+/* dashboard */
+/* form */
+.no-pada {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#item_table .item-name {
+	padding-bottom: 0.3em;
+	border-bottom: 1px dashed black;
+}
+#item_table .v-center {
+	vertical-align: middle;
+}
+#item_table .delete {
+	margin-top: 1em;
+}

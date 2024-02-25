@@ -1,0 +1,149 @@
+/* common settings */
+.container a {
+	text-decoration: none;
+}
+ul {
+	padding-left: 0;
+}
+ul li {
+	list-style: none;
+}
+.pre_wrap {
+	white-space: pre-wrap;
+}
+.section {
+	margin-top: 3em;
+	margin-bottom: auto;
+}
+
+/* session message */
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+
+/* font settings */
+.fnt_bold {
+	font-weight: bold;
+}
+.fnt_min {
+	font-size: 0.8em;
+}
+.fnt_mid {
+	font-size: 1.2em;
+}
+.fnt_tall {
+	font-size: 1.5em;
+}
+.fnt_red {
+	color: firebrick;
+}
+.fnt_yellow {
+	color: yellow;
+}
+.fnt_black {
+	color: black;
+}
+
+/* button settings */
+.button {
+	border: none;
+	border-radius: 0.5em;
+	padding: 0.2em 0.75em;
+	display: inline-block;
+	cursor: pointer;
+}
+.button:hover {
+	text-decoration: none;
+}
+
+.btn_red, .btn_red:hover {
+	color: white;
+	background-color: firebrick;
+	border: 0.2em solid firebrick;
+}
+.btn_outline_red {
+	color: firebrick;
+	background-color: white;
+	outline: none;
+	border: 0.2em solid white;
+}
+.btn_outline_red:hover, .btn_outline_red:focus {
+	color: firebrick;
+	border: 0.2em solid firebrick;
+}
+
+
+.btn_blue, .btn_blue:hover {
+	color: white;
+	background-color: dodgerblue;
+	border: 0.2em solid dodgerblue;
+}
+.btn_outline_blue {
+	color: dodgerblue;
+	background-color: white;
+	outline: none;
+	border: 0.2em solid white;
+}
+.btn_outline_blue:hover, .btn_outline_blue:focus {
+	color: dodgerblue;
+	border: 0.2em solid dodgerblue;
+}
+
+
+.btn_green, .btn_green:hover {
+	color: white;
+	background-color: mediumseagreen;
+	border: 0.2em solid mediumseagreen;
+}
+.btn_outline_green {
+	color: mediumseagreen;
+	background-color: white;
+	outline: none;
+	border: 0.2em solid white;
+}
+.btn_outline_green:hover, .btn_outline_green:focus {
+	color: mediumseagreen;
+	border: 0.2em solid mediumseagreen;
+}
+
+
+.btn_gray, .btn_gray:hover {
+	color: white;
+	background-color: dimgray;
+	border: 0.2em solid dimgray;
+}
+
+
+/* border */
+.border-red {
+	border-color: firebrick!important;
+}
+
+/* header */
+.navi li {
+	line-height: 32px;
+}
+.basket_icon {
+	height: 32px;
+}
+
+/* logo */
+.logo a:link, .logo a:visited, .logo a:hover, .logo a:active {
+	font-weight: bolder;
+	color: firebrick;
+	text-decoration: none;
+}
+.logo_tall {
+	font-size: 4em;
+}
+.logo_small {
+	font-size: 2em;
+}
+
+/* basket_out of stock */
+.oos {
+	background-color: honeydew;
+}

@@ -1,0 +1,13 @@
+.user-orderhistory {
+	width: calc(100% - 2rem);
+}
+.user-orderhistory thead {
+	border-bottom: 1px dashed black;
+}
+.user-orderhistory tbody tr:nth-child(even) {
+	background-color: honeydew;
+}
+
+.basket_row li:first-child {
+	border-top: 1px solid firebrick;
+}
